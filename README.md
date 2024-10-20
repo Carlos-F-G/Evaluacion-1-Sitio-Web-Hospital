@@ -19,18 +19,7 @@ Para ver el sitio web en tu navegador, sigue estos pasos:
 
 ## Estructura de Carpetas y Archivos
 
-
-proyecto-hospital/
-├── css/
-│   └── style.css             
-├── img/
-│   └── (imágenes del sitio)    
-├── js/
-│   └── (scripts JS, si es necesario)
-├── index.html                  
-├── equipo.html                
-├── contacto.html               
-└── README.md                   
+![image](https://github.com/user-attachments/assets/8ae96a0b-d5b9-4ca0-aa2d-46983a5fc39a)
 
 
 
