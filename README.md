@@ -17,7 +17,6 @@ Para ver el sitio web en tu navegador, sigue estos pasos:
 
 ## Estructura de Carpetas y Archivos
 
-## Estructura de Carpetas y Archivos
 
 ![image](https://github.com/user-attachments/assets/8ae96a0b-d5b9-4ca0-aa2d-46983a5fc39a)
 
@@ -35,8 +34,5 @@ Para ver el sitio web en tu navegador, sigue estos pasos:
 ### 3. **Contacto**
 - **Funcion principal**: La página de contacto incluye un formulario donde los usuarios pueden enviar preguntas o comentarios al hospital. También incorpora un mapa de Google Maps que muestra la ubicación física del hospital.
 
----
-
-Este README proporciona una descripción clara y sencilla de lo que ofrece el proyecto y cómo utilizarlo. ¿Te gustaría añadir algo más o hacer alguna corrección?
 
 
