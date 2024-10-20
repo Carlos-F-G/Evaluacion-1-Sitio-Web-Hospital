@@ -1,4 +1,4 @@
-# Sitio Web del Hospital
+# Sitio Web - hospital NuevaVida
 
 ## Descripción del Proyecto
 Proyecto que consiste es crear un sitio web para un hospital privado, con secciones principales que ofrecen información sobre los servicios médicos
