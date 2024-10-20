@@ -1,0 +1,411 @@
+body {
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0062f5;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li button {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.bienvenida {
+    padding: 100px 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-image: url("/img/banner_hospital.jpg");
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.servicios {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.servicio {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.redes-sociales img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+
+/* Estilos para la sección de servicios */
+.servicios {
+    padding: 50px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.servicios h2 {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Contenedor de los servicios */
+.contenedor-servicios {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Estilo de cada tarjeta de servicio */
+.servicio {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1%;
+    text-align: center;
+    background-color: white;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.servicio img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.servicio h3 {
+    font-size: 1.5em;
+    color: #3e7aeb;
+    margin-bottom: 10px;
+}
+
+.servicio p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Estilos para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .servicio {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Estilos para pantallas móviles */
+@media (max-width: 480px) {
+    .servicio {
+        width: 90%;
+    }
+
+    .servicio img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .servicios h2 {
+        font-size: 2em;
+    }
+}
+
+.testimonios {
+    padding: 50px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.testimonios h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.testimonio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+.testimonio img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.testimonio blockquote {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #555;
+    flex: 1;
+    text-align: left;
+}
+
+.testimonio p {
+    font-size: 1em;
+    font-weight: bold;
+    color: #333;
+    margin-left: 20px;
+    text-align: right;
+}
+
+/* Responsivo para pantallas pequeñas */
+@media (max-width: 768px) {
+    .testimonio {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .testimonio img {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .testimonio blockquote,
+    .testimonio p {
+        text-align: center;
+    }
+}
+
+
+/*estilos para seccion del equipo de trabajo*/
+
+
+
+.presentacion {
+    padding: 50px;
+    text-align: center;
+}
+
+.equipo {
+    padding: 50px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.equipo h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.contenedor-doctores {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.doctor {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 25%;
+    min-width: 250px;
+    box-sizing: border-box;
+}
+
+.doctor img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.doctor h3 {
+    font-size: 1.5em;
+    color: #3e7aeb;
+    margin-bottom: 10px;
+}
+
+.doctor p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Estilos para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .contenedor-doctores {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .doctor {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+/* Estilos para la página de contacto */
+.contacto {
+    padding: 50px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+form label {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+.ubicacion {
+    padding: 50px;
+    text-align: center;
+}
+
+.ubicacion img {
+    width: 100%;
+    max-width: 600px;
+}
+
+
+/*css para footer*/
+
+footer {
+    background-color: #333;
+    color: rgb(112, 112, 112);
+    padding: 40px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.footer-contenido {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-enlaces {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer-enlaces li {
+    display: inline;
+}
+
+.footer-enlaces li a {
+    color: rgb(117, 117, 117);
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.footer-enlaces li a:hover {
+    color: #ccc;
+}
+
+.redes-sociales {
+    margin-top: 20px;
+}
+
+.redes-sociales a {
+    margin: 0 15px;
+    display: inline-block;
+}
+.redes-sociales a {
+    margin: 0 15px;
+    font-size: 2em;
+    /* Tamaño de los iconos */
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.redes-sociales a:hover {
+    color: #ccc;
+    /* Cambia el color al pasar el cursor */
+}
+
+
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
+    .footer-enlaces {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .redes-sociales a {
+        margin: 10px;
+    }
+}
