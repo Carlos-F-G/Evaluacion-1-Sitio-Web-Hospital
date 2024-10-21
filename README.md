@@ -24,7 +24,7 @@ Proyecto que consiste en crear un sitio web para un hospital privado, desarrolla
 
 ## descripcióni de las páginas
 
-### 1. **Home
+### 1. Home
 - En la página principal se muestra una descripción del hospital, consta de un menú de navegación para acceder a: (Equipo Médico, Servicios y Contacto).
 
 ### 2. **Equipo Médico**
