@@ -18,21 +18,22 @@ Para ver el sitio web en tu navegador, sigue estos pasos:
 ## Estructura de Carpetas y Archivos
 
 
-![image](https://github.com/user-attachments/assets/8ae96a0b-d5b9-4ca0-aa2d-46983a5fc39a)
+
+![image](https://github.com/user-attachments/assets/44c1af68-d7e1-4795-a665-a394beee1a7e)
 
 
 
 
 ## Explicación Breve de las Vistas
 
-### 1. **Home (Página de Inicio)**
-- **Funcion principal**: La página principal del sitio ofrece una introducción al hospital, mostrando un resumen de los servicios disponibles. Incluye un menú de navegación para acceder rápidamente a las secciones importantes del sitio (Equipo Médico, Servicios, Contacto).
+### 1. **Home
+- En la página principal se muestra una descripción del hospital, consta de un menú de navegación para acceder a: (Equipo Médico, Servicios y Contacto).
 
 ### 2. **Equipo Médico**
-- **Funcion principal**: En esta página se presenta al equipo médico del hospital. Cada médico tiene una tarjeta de perfil con su foto, nombre, especialidad y una breve descripción de su trayectoria profesional.
+- En esta página se muestra al equipo médico del hospital. Cada médico tiene una descripción con una foto imcluida acompañado de una breve descripción de su trayectoria.
 
 ### 3. **Contacto**
-- **Funcion principal**: La página de contacto incluye un formulario donde los usuarios pueden enviar preguntas o comentarios al hospital. También incorpora un mapa de Google Maps que muestra la ubicación física del hospital.
+-En esta página de contacto se muestra un formulario donde el usuario pueden enviar preguntas o comentarios al hospital.
 
 
 
